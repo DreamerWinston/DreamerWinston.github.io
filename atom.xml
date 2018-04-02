@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://dreamerwinston.github.io/blog/"/>
   <updated>2018-04-02T15:31:18.774Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://dreamerwinston.github.io/blog/</id>
   
   <author>
     <name>John Doe</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2018/04/02/2018_4_2/"/>
-    <id>http://yoursite.com/2018/04/02/2018_4_2/</id>
+    <link href="https://dreamerwinston.github.io/blog/2018/04/02/2018_4_2/"/>
+    <id>https://dreamerwinston.github.io/blog/2018/04/02/2018_4_2/</id>
     <published>2018-04-02T15:26:03.716Z</published>
     <updated>2018-04-02T15:31:18.774Z</updated>
     
@@ -35,12 +35,12 @@
     
     </summary>
     
-      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="https://dreamerwinston.github.io/blog/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="筑梦师" scheme="http://yoursite.com/tags/%E7%AD%91%E6%A2%A6%E5%B8%88/"/>
+      <category term="筑梦师" scheme="https://dreamerwinston.github.io/blog/tags/%E7%AD%91%E6%A2%A6%E5%B8%88/"/>
     
-      <category term="自我介绍" scheme="http://yoursite.com/tags/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/"/>
+      <category term="自我介绍" scheme="https://dreamerwinston.github.io/blog/tags/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/"/>
     
   </entry>
   
