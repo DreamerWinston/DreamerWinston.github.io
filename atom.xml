@@ -3,11 +3,11 @@
   <title>Hexo</title>
   
   
-  <link href="/atom.xml" rel="self"/>
+  <link href="/DreamerWinstion.github.io/atom.xml" rel="self"/>
   
-  <link href="https://dreamerwinston.github.io/DreamerWinstion.github.io/"/>
+  <link href="http://yoursite.com/"/>
   <updated>2018-04-02T06:08:58.351Z</updated>
-  <id>https://dreamerwinston.github.io/DreamerWinstion.github.io/</id>
+  <id>http://yoursite.com/</id>
   
   <author>
     <name>John Doe</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://dreamerwinston.github.io/DreamerWinstion.github.io/2018/04/02/hello-world/"/>
-    <id>https://dreamerwinston.github.io/DreamerWinstion.github.io/2018/04/02/hello-world/</id>
+    <link href="http://yoursite.com/2018/04/02/hello-world/"/>
+    <id>http://yoursite.com/2018/04/02/hello-world/</id>
     <published>2018-04-02T06:08:58.351Z</published>
     <updated>2018-04-02T06:08:58.351Z</updated>
     
