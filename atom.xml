@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Please stay</title>
+  <title>Hexo</title>
   
-  <subtitle>With me</subtitle>
-  <link href="/DreamerWinstion.github.io/atom.xml" rel="self"/>
+  
+  <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
   <updated>2018-04-02T15:31:18.774Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>筑梦师</name>
+    <name>John Doe</name>
     
   </author>
   
