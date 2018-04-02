@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   // Set relative link path (without domain)
-  var rpath = window.location.href.replace(window.location.origin, "blog/");
+  var rpath = window.location.href.replace(window.location.origin, "");
 
   // Write position in cookie
   var timeout;
