@@ -3,7 +3,7 @@
   <title>Hexo</title>
   
   
-  <link href="https://github.com/DreamerWinston/DreamerWinstion.github.io/atom.xml" rel="self"/>
+  <link href="/DreamerWinstion.github.io/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
   <updated>2018-04-02T06:08:58.351Z</updated>
