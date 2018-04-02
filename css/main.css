@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9d46ff;
+  background: #e3b122;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2700,6 +2700,7 @@ ul.breadcrumb li+li:last-child {
   text-align: left;
   line-height: inherit;
   transition-property: background-color;
+  background: #fff;
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
