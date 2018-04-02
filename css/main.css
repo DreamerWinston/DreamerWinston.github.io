@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #33ff4a;
+  background: #14606a;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2703,6 +2703,7 @@ ul.breadcrumb li+li:last-child {
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
+  background: #fff;
 }
 .menu .menu-item a:hover,
 .menu-item-active a {
