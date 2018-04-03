@@ -99,17 +99,18 @@
 
 
 
-  <meta name="description" content="#如何成为一个优雅的程序员?title: 如何成为一个优雅的程序员?categories:  程序员思想tags: 筑梦师 自我介绍 程序员comments: false   前言在当下,互联网经济快速发展的速度,导致有大量学生,行业外人士涌入程序员行业.有不少转行成功的以后步步高升,也有不少干了两年就不干了.从入门到失业,从入门到转行. 很多人,都觉得程序员高薪,就得来凑热闹,我只想说,这钱,真">
+  <meta name="description" content="前言在当下,互联网经济快速发展的速度,导致有大量学生,行业外人士涌入程序员行业.有不少转行成功的以后步步高升,也有不少干了两年就不干了.从入门到失业,从入门到转行. 很多人,都觉得程序员高薪,就得来凑热闹,我只想说,这钱,真不是你想的那么好挣,但是,你会学习的话.就不然. 我也是一名非科班的出身转行进入程序员,把自己的亲身经历写在这里,方便各位业外业内人士,学生们借鉴. 如何进入程序员行业?程序员">
+<meta name="keywords" content="程序员">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Please Stay With Me">
+<meta property="og:title" content="如何成为一个优雅的程序员?">
 <meta property="og:url" content="http://yoursite.com/2018/04/04/如何成为一个优雅的程序员">
 <meta property="og:site_name" content="Please Stay With Me">
-<meta property="og:description" content="#如何成为一个优雅的程序员?title: 如何成为一个优雅的程序员?categories:  程序员思想tags: 筑梦师 自我介绍 程序员comments: false   前言在当下,互联网经济快速发展的速度,导致有大量学生,行业外人士涌入程序员行业.有不少转行成功的以后步步高升,也有不少干了两年就不干了.从入门到失业,从入门到转行. 很多人,都觉得程序员高薪,就得来凑热闹,我只想说,这钱,真">
+<meta property="og:description" content="前言在当下,互联网经济快速发展的速度,导致有大量学生,行业外人士涌入程序员行业.有不少转行成功的以后步步高升,也有不少干了两年就不干了.从入门到失业,从入门到转行. 很多人,都觉得程序员高薪,就得来凑热闹,我只想说,这钱,真不是你想的那么好挣,但是,你会学习的话.就不然. 我也是一名非科班的出身转行进入程序员,把自己的亲身经历写在这里,方便各位业外业内人士,学生们借鉴. 如何进入程序员行业?程序员">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-04-03T18:12:58.002Z">
+<meta property="og:updated_time" content="2018-04-03T18:16:07.723Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Please Stay With Me">
-<meta name="twitter:description" content="#如何成为一个优雅的程序员?title: 如何成为一个优雅的程序员?categories:  程序员思想tags: 筑梦师 自我介绍 程序员comments: false   前言在当下,互联网经济快速发展的速度,导致有大量学生,行业外人士涌入程序员行业.有不少转行成功的以后步步高升,也有不少干了两年就不干了.从入门到失业,从入门到转行. 很多人,都觉得程序员高薪,就得来凑热闹,我只想说,这钱,真">
+<meta name="twitter:title" content="如何成为一个优雅的程序员?">
+<meta name="twitter:description" content="前言在当下,互联网经济快速发展的速度,导致有大量学生,行业外人士涌入程序员行业.有不少转行成功的以后步步高升,也有不少干了两年就不干了.从入门到失业,从入门到转行. 很多人,都觉得程序员高薪,就得来凑热闹,我只想说,这钱,真不是你想的那么好挣,但是,你会学习的话.就不然. 我也是一名非科班的出身转行进入程序员,把自己的亲身经历写在这里,方便各位业外业内人士,学生们借鉴. 如何进入程序员行业?程序员">
 
 
 
@@ -128,7 +129,7 @@
   };
 </script>
 
-  <title> | Please Stay With Me</title>
+  <title>如何成为一个优雅的程序员? | Please Stay With Me</title>
   
 
 
@@ -236,7 +237,7 @@
           
   <li class="menu-item menu-item-categories">
     <a href="/blog/categories/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-th"></i> <br />分类<span class="badge">1</span>
+      <i class="menu-item-icon fa fa-fw fa-th"></i> <br />分类<span class="badge">2</span>
       </a>
 </li>
 
@@ -246,7 +247,7 @@
           
   <li class="menu-item menu-item-tags">
     <a href="/blog/tags/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签<span class="badge">2</span>
+      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签<span class="badge">3</span>
       </a>
 </li>
 
@@ -355,7 +356,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline"></h1>
+          <h1 class="post-title" itemprop="name headline">如何成为一个优雅的程序员?</h1>
         
 
         <div class="post-meta">
@@ -377,9 +378,25 @@
           </span>
 
           
-
-          
+            <span class="post-category" >
             
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/blog/categories/程序员思想/" itemprop="url" rel="index"><span itemprop="name">程序员思想</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
           
 
           
@@ -404,15 +421,7 @@
       
 
       
-        <h2 id="如何成为一个优雅的程序员"><a href="#如何成为一个优雅的程序员" class="headerlink" title="#如何成为一个优雅的程序员?"></a>#如何成为一个优雅的程序员?</h2><p>title: 如何成为一个优雅的程序员?<br>categories:</p>
-<ul>
-<li>程序员思想<br>tags:</li>
-<li>筑梦师</li>
-<li>自我介绍</li>
-<li>程序员<br>comments: false</li>
-</ul>
-<hr>
-<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>在当下,互联网经济快速发展的速度,导致有大量学生,行业外人士涌入程序员行业.有不少转行成功的以后步步高升,也有不少干了两年就不干了.从入门到失业,从入门到转行.</p>
+        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>在当下,互联网经济快速发展的速度,导致有大量学生,行业外人士涌入程序员行业.有不少转行成功的以后步步高升,也有不少干了两年就不干了.从入门到失业,从入门到转行.</p>
 <p>很多人,都觉得程序员高薪,就得来凑热闹,我只想说,这钱,真不是你想的那么好挣,但是,你会学习的话.就不然.</p>
 <p>我也是一名非科班的出身转行进入程序员,把自己的亲身经历写在这里,方便各位业外业内人士,学生们借鉴.</p>
 <h3 id="如何进入程序员行业"><a href="#如何进入程序员行业" class="headerlink" title="如何进入程序员行业?"></a>如何进入程序员行业?</h3><h4 id="程序员必备态度"><a href="#程序员必备态度" class="headerlink" title="程序员必备态度"></a>程序员必备态度</h4><p>如果一下几条你不符合的话,我不建议你转入程序员行业:<br>1.把写程序当做一门兴趣学习,而不是一门赚钱的工具.<br>2.不断学习新技术的能力.<br>3.独立解决问题的能力.<br>4.谦虚,内敛,成熟.<br>5.自己决定进入这个行业,而不是跟风随大流.</p>
@@ -440,6 +449,12 @@
     
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/blog/tags/程序员/" rel="tag"># 程序员</a>
+          
+        </div>
       
 
       
@@ -483,10 +498,6 @@
 
           </div>
           
-
-  
-
-
 
         </div>
         
@@ -551,7 +562,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">1</span>
+                      
+                    
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -568,7 +581,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">2</span>
+                      
+                    
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -655,7 +670,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#如何成为一个优雅的程序员"><span class="nav-number">1.</span> <span class="nav-text">#如何成为一个优雅的程序员?</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#前言"><span class="nav-number">1.1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#如何进入程序员行业"><span class="nav-number">1.2.</span> <span class="nav-text">如何进入程序员行业?</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#程序员必备态度"><span class="nav-number">1.2.1.</span> <span class="nav-text">程序员必备态度</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#大学-gt-研究生-gt-博士"><span class="nav-number">1.2.2.</span> <span class="nav-text">大学&gt;研究生&gt;博士</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#自学"><span class="nav-number">1.2.3.</span> <span class="nav-text">自学</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#培训机构"><span class="nav-number">1.2.4.</span> <span class="nav-text">培训机构</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#如何进入程序员行业"><span class="nav-number">2.</span> <span class="nav-text">如何进入程序员行业?</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#程序员必备态度"><span class="nav-number">2.1.</span> <span class="nav-text">程序员必备态度</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#大学-gt-研究生-gt-博士"><span class="nav-number">2.2.</span> <span class="nav-text">大学&gt;研究生&gt;博士</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#自学"><span class="nav-number">2.3.</span> <span class="nav-text">自学</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#培训机构"><span class="nav-number">2.4.</span> <span class="nav-text">培训机构</span></a></li></ol></li></ol></div>
             
 
           </div>
