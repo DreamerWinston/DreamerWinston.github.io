@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-04-02T15:31:18.774Z</updated>
+  <updated>2018-04-03T15:33:42.214Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
+    <title>This is me.</title>
     <link href="http://yoursite.com/2018/04/02/2018_4_2/"/>
     <id>http://yoursite.com/2018/04/02/2018_4_2/</id>
     <published>2018-04-02T15:26:03.716Z</published>
-    <updated>2018-04-02T15:31:18.774Z</updated>
+    <updated>2018-04-03T15:33:42.214Z</updated>
     
     <content type="html"><![CDATA[<p>This is me.<br>这里是筑梦师Winston~今天刚刚搭好了自己的博客.很累,但是我很开心,一路从搭建,一路排坑.可能很多人看这应该很容易,但谁都是从零开始的~<br>加油,相信自己.</p>]]></content>
     
