@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[思考问题]]></title>
+    <url>%2Fblog%2F2018%2F04%2F04%2F%E6%80%9D%E8%80%83%E9%97%AE%E9%A2%98%2F</url>
+    <content type="text"><![CDATA[#思考问题这里主要记录在学习过程中自己思考的各种问题 ##3月 查询如何建立本地服务器. JQuery Boostrap 开源网页项目 PHP如何入门 阅读 head first PHP &amp; MySQL 后台API如何建立 后台如何安全的和网页交互. HTML5和后台交互 使用JSONP 那么后台岂不是暴露在万维网之中? 最关键的环节应该是登录注册 HTML5担任的是网页的角色 那么 Apache MySQL PHP各自担任着什么角色 网站后台API 文件挂载/传输 分别由谁来完成. 一个网站的具体流程 是什么呢 首先进行HTML5 PHP MySQL的学习,因为市面上大部分都是LAMP WAMP环境. 学习完毕 搜索 PHP部署关键词 进行学习. 关键词 CMS emlog建站. JQuery Nginx &amp; fastcgi &amp; laravel 尝试写一个自己的网站,放在本地服务器上 搜索CSS效果 并进行构建 遇到瓶颈 暂停 开始学习PHP&amp; SQL 已经熟悉整个网站的流程尝试构建本地服务器网页 并写入数据库 数据传递是否安全,网页会不会被SQL注入,如何防止数据库被攻击. 目的:写一个局域网网站共享的东西 目前已经读完三本书,有一个问题 HTML+CSS布局网页 PHP负责后台数据写入,那么要JavaScript干什么]]></content>
+      <categories>
+        <category>学习日志</category>
+      </categories>
+      <tags>
+        <tag>学习日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[学习疑难知识点]]></title>
+    <url>%2Fblog%2F2018%2F04%2F04%2F%E5%AD%A6%E4%B9%A0%E7%96%91%E9%9A%BE%E7%9F%A5%E8%AF%86%E7%82%B9%2F</url>
+    <content type="text"><![CDATA[学习疑难知识点在学习过程中,会遇到各种各样问题和知识点,而不是应该避开他,而是迎面学习并解决他.这里记录日常中学习中会遇到的所有知识点. ##3月 个人博客 HEXO YAML语言 cURL 路由 wget HTTP协议 前端安全 常用前端三驾马车 react、vuejs、angularjs jQuery工具库 跨域 es6新语法 nodejs 开发 express koa 常用框架 数据库 能封装业务组件和公用组件. 在技术选型上,能给出你选择的方案是最优的数据说明 前后端分离 前端性能优化. 前端工程化开发 测试 打包 发布 自己实现前端架构代码 PHP页面跳转、端口监听 jQuery Spring JSP DOM MVC &amp; MVVM 面向对象 &amp; 面向过程 RESTful Ajax JSON Fetch API ReactiveX 工程化 C/S I/O Perl IIS Nginx php-fpm FastCGI 基础 HTML / CSS JavaScript Node.js 正规表达式 数据格式（ 如JSON、 XML） RESTful API交互（ 如jQuery Ajax， Fetch API， ReactiveX） 命令行 ES6 / CoffeScript / TypeScript SCSS / SASS CSS3 HTML语义化 面向对象编程 函数式编程 MVC / MVVM / MV * 矢量图形 / 矢量图形动画（ 如SVG） 单页面应用 安全性（ 如跨域） 授权（ 如HTTP Basic、 JWT等等） 工程化 代码质量（ 如JSLint / ESLint / TSLint / CSLint） 代码分析（ 如Code Climate） 测试覆盖率 构建系统（ gulp、 grunt、 webpack等等） 自动构建（ 脚本） 兼容性 跨浏览器测试（ Chrome， IE， Firefox， Safari等等） 跨平台测试（ Windows、 GNU / Linux， Mac OS等等） 跨设备测试（ Desktop， Android， iOS， Windows Phone） 跨版本测试（ 同一个浏览器的不同版本） CSS / CSS3 动画 JavaScript 动画 Web字体嵌入 Icon 字体 图形和图表 CSS Sprite（ 如glue） DOM操作（ 如jQuery、 React等等） 模板引擎（ 如JSX、 Handlebars、 JSP、 Mustache等等） 软件工程 版本管理（ 如git、 svn） 包管理（ 如npm、 bower） 依赖管理 模块化（ 如CommonJS、 WebPack） 调试 浏览器调试 Debug工具 Wireshark / Charles抓包 远程设备调试（ 如Chrome Inspect Devices） 测试 单元测试 服务测试 UI测试 集成测试 性能与优化 PageSpeed / Yslow 优化 加载优化（ 如gzip压缩、 缓存等等） 性能测试（ 特别是移动Web） 可用性 压缩（ 如Minify、 Uglify、 CleanCSS等等） 设计 切页面 线框图（ Wireframe） 响应式设计 网格布局（ Grid Layout） Flexbox布局 SEO Sitemap（ 站点地图） 内部链接建设 MicroData / MicroFormat 页面静态内容生成]]></content>
+      <categories>
+        <category>学习日志</category>
+      </categories>
+      <tags>
+        <tag>学习日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[学习日志]]></title>
+    <url>%2Fblog%2F2018%2F04%2F04%2F%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%BF%97%2F</url>
+    <content type="text"><![CDATA[#学习日志本学习日志 记录离职期间进行学习的概况. 17年10月-12月 iOS底层.18年01月-03月 iOS逆向. ###3月 拥有iOS开发经验,但从未对HTML进行系统学习. 阅读 Head First HTML &amp;CSS 750页 阅读 Head First HTML5 Progreaming 600页 对HTML5和CSS的学习量已经足够大,所以决定将结合着 PHP&amp;SQL 787页 一起学习 阅读 Head First JavaScript 学习CSS3 以及项目搭建 HTML5&amp;CSS3权威指南 (搁置) 考察并学习 CSS世界.]]></content>
+      <categories>
+        <category>学习日志</category>
+      </categories>
+      <tags>
+        <tag>学习日志</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[如何成为一个优雅的程序员?]]></title>
     <url>%2Fblog%2F2018%2F04%2F04%2F%E5%A6%82%E4%BD%95%E6%88%90%E4%B8%BA%E4%B8%80%E4%B8%AA%E4%BC%98%E9%9B%85%E7%9A%84%E7%A8%8B%E5%BA%8F%E5%91%98%3F%2F</url>
     <content type="text"><![CDATA[前言在当下,互联网经济快速发展的速度,导致有大量学生,行业外人士涌入程序员行业.有不少转行成功的以后步步高升,也有不少干了两年就不干了.从入门到失业,从入门到转行. 很多人,都觉得程序员高薪,就得来凑热闹,我只想说,这钱,真不是你想的那么好挣,但是,你会学习的话.就不然. 我也是一名非科班的出身转行进入程序员,把自己的亲身经历写在这里,方便各位业外业内人士,学生们借鉴. 如何进入程序员行业?程序员必备态度如果一下几条你不符合的话,我不建议你转入程序员行业:1.把写程序当做一门兴趣学习,而不是一门赚钱的工具.2.不断学习新技术的能力.3.独立解决问题的能力.4.谦虚,内敛,成熟.5.自己决定进入这个行业,而不是跟风随大流. 大学&gt;研究生&gt;博士如果你是在大学时选择了计算机相关专业的人,那么恭喜你,你的学历可以当做一个敲门砖.在这里不赘述各种985、211的好处.简单说,大学里如果你认真学,越好的大学,就会有老师带着做项目,出来就可以直接工作,什么BAT直招就看自己本事了.但是如果你是一般的大学,一般学不多工作中能用到的东西.不排除以后改革会增加这方面的补缺.那怎么办呢.自学是一个比较好的途径.如果你恰巧不是计算机相关专业的,比如汽修,数控,甚至你是高中,初中学历.没关系,只要你想,你就可以改变命运. 自学自学,首先是对自己自学能力的一个考察,其次就是探究能力.我最看重的就是自制力,自制力高的话,学习力就会很高.而且自学思维会很活跃,发散性思维会做到很多事情. #####自学的方向学校当中计算机相关专业都可以选择学科,教java,C++,C#这种.这里简单罗列一下我当前的职业相关语言,如果你还是在校学生,想做程序员这门行业的话,可以搜索相关资料进行学习,那句话不假,机会都是给努力的人的. 区块链大数据、人工智能 Python苹果应用开发 Objective-C 、Swift安卓开发 Java前端开发 HTML5+CSS3+JavaScript后台、服务器 Java、PHPWin应用、硬件开发 C++、C#设计师 PhotoShop服务器运维 Python 产品经理、技术经理架构师 培训机构很多工作过的人都知道,招人的时候,不要没有没有工作经验的,不要培训机构的,不要牛逼哄哄的.为什么不要培训机构,不是因为我们对培训机构有什么误解.培训机构这个学习途径并没有错,错就错在,培训机构在招学生的时候,不过滤,不筛选,永远都是在说”程序员这行挣钱,快来学习吧,出去月入过万”.在加上培训机构的老师教学方式古板老套,统一灌输教育思维.你想想4-6个月,教会你一门语言,那是多大的学习量,和高考差不多了.你说培训机构出来的没有厉害的吗?也不然,只是说大多数培训机构的学生,都会被培训机构局限思维,程序员最终要的是什么,是思维,你都被局限了,怎么干活.好的培训机构,培训班里不受老师灌输思维影响的学生,学的又好的少之又少,有是肯定有,再经过企业两三年历练,拥有自己的思想,便能在这人山人海中站住脚.那么问题来了,你是那一个吗?你说你不是,那么我问你,你愿意做,想做过吗?不努力学习,在哪行都不会有人要,做不做到是一回事,想不想又是一回事.你连想都不想,怎么会成呢?首先,如果你选择了培训机构这条学习途径,就是否定了自己学习能力和自制力.如果家里没有这个学习环境,而且家里可以提供学费(当然可以贷款)的话,你可以尝试,但你请务必做好准备,坚决要有自己的学习方法以及你就是培训班第一的觉悟.如果你连想都不想,培训出来已是废一半. ###结尾暂时写到这里.]]></content>
