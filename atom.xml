@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-04-03T18:16:58.308Z</updated>
+  <updated>2018-04-04T01:24:01.273Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>全栈开发学习路线</title>
+    <link href="http://yoursite.com/2018/04/04/FullStack_skill_book/"/>
+    <id>http://yoursite.com/2018/04/04/FullStack_skill_book/</id>
+    <published>2018-04-04T00:25:23.608Z</published>
+    <updated>2018-04-04T01:24:01.273Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;学习路线&quot;&gt;&lt;a href=&quot;#学习路线&quot; class=&quot;headerlink&quot; title=&quot;学习路线&quot;&gt;&lt;/a&gt;学习路线&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;HTML + CSS&lt;/li&gt;
+&lt;li&gt;HTML5 + CSS3&lt;/li&gt;
+&lt;li&gt;JavaScript +
+        
+      
+    
+    </summary>
+    
+      <category term="全栈开发" scheme="http://yoursite.com/categories/%E5%85%A8%E6%A0%88%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="学习笔记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="全栈开发" scheme="http://yoursite.com/tags/%E5%85%A8%E6%A0%88%E5%BC%80%E5%8F%91/"/>
+    
+  </entry>
   
   <entry>
     <title>思考问题</title>
