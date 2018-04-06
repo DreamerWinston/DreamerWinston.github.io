@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-04-04T01:24:01.273Z</updated>
+  <updated>2018-04-06T05:46:58.508Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2018/04/04/FullStack_skill_book/"/>
     <id>http://yoursite.com/2018/04/04/FullStack_skill_book/</id>
     <published>2018-04-04T00:25:23.608Z</published>
-    <updated>2018-04-04T01:24:01.273Z</updated>
+    <updated>2018-04-06T05:46:58.508Z</updated>
     
     <summary type="html">
     
@@ -49,8 +49,8 @@
   
   <entry>
     <title>思考问题</title>
-    <link href="http://yoursite.com/2018/04/04/2018_4_4_d/"/>
-    <id>http://yoursite.com/2018/04/04/2018_4_4_d/</id>
+    <link href="http://yoursite.com/2018/04/04/Study_question/"/>
+    <id>http://yoursite.com/2018/04/04/Study_question/</id>
     <published>2018-04-03T17:38:36.343Z</published>
     <updated>2018-04-03T18:16:58.308Z</updated>
     
@@ -79,8 +79,8 @@
   
   <entry>
     <title>学习疑难知识点</title>
-    <link href="http://yoursite.com/2018/04/04/2018_4_4_b/"/>
-    <id>http://yoursite.com/2018/04/04/2018_4_4_b/</id>
+    <link href="http://yoursite.com/2018/04/04/Study_note/"/>
+    <id>http://yoursite.com/2018/04/04/Study_note/</id>
     <published>2018-04-03T17:32:24.714Z</published>
     <updated>2018-04-03T18:16:48.936Z</updated>
     
@@ -105,8 +105,8 @@
   
   <entry>
     <title>学习日志</title>
-    <link href="http://yoursite.com/2018/04/04/2018_4_4_c/"/>
-    <id>http://yoursite.com/2018/04/04/2018_4_4_c/</id>
+    <link href="http://yoursite.com/2018/04/04/Study_date/"/>
+    <id>http://yoursite.com/2018/04/04/Study_date/</id>
     <published>2018-04-03T17:25:56.047Z</published>
     <updated>2018-04-03T17:34:56.457Z</updated>
     
@@ -132,8 +132,8 @@
   
   <entry>
     <title>如何成为一个优雅的程序员?</title>
-    <link href="http://yoursite.com/2018/04/04/2018_4_4_a/"/>
-    <id>http://yoursite.com/2018/04/04/2018_4_4_a/</id>
+    <link href="http://yoursite.com/2018/04/04/Become_Dreamer/"/>
+    <id>http://yoursite.com/2018/04/04/Become_Dreamer/</id>
     <published>2018-04-03T16:56:35.974Z</published>
     <updated>2018-04-03T18:47:00.185Z</updated>
     
@@ -158,8 +158,8 @@
   
   <entry>
     <title>This is me.</title>
-    <link href="http://yoursite.com/2018/04/02/2018_4_2/"/>
-    <id>http://yoursite.com/2018/04/02/2018_4_2/</id>
+    <link href="http://yoursite.com/2018/04/02/This_is_me/"/>
+    <id>http://yoursite.com/2018/04/02/This_is_me/</id>
     <published>2018-04-02T15:26:03.716Z</published>
     <updated>2018-04-03T15:33:42.214Z</updated>
     
