@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-04-10T15:38:51.640Z</updated>
+  <updated>2018-04-13T03:54:13.637Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2017年计算机系书单</title>
+    <link href="http://yoursite.com/2018/04/12/Computer_books_share_List/"/>
+    <id>http://yoursite.com/2018/04/12/Computer_books_share_List/</id>
+    <published>2018-04-12T13:38:59.636Z</published>
+    <updated>2018-04-13T03:54:13.637Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;##前言&lt;br&gt;这里筑梦师,是一名正在努力学习的iOS开发工程师,目前致力于全栈方向的学习,希望可以和大家一起交流技术,共同进步,用简书记录下自己的学习历程.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="书单" scheme="http://yoursite.com/categories/%E4%B9%A6%E5%8D%95/"/>
+    
+    
+      <category term="程序员" scheme="http://yoursite.com/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+      <category term="书籍分享" scheme="http://yoursite.com/tags/%E4%B9%A6%E7%B1%8D%E5%88%86%E4%BA%AB/"/>
+    
+  </entry>
   
   <entry>
     <title>如何做一个优秀的程序员</title>
