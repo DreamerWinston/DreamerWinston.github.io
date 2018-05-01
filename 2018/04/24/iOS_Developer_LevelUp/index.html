@@ -1,0 +1,1340 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-CN">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/blog/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/blog/css/main.css?v=6.1.0" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/blog/images/apple-touch-icon.png?v=6.1.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/blog/images/favicon-32x32.png?v=6.1.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/blog/images/favicon-16x16.png?v=6.1.0">
+
+
+  <link rel="mask-icon" href="/blog/images/winston.svg?v=6.1.0" color="#222">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/blog/',
+    scheme: 'Pisces',
+    version: '6.1.0',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="浅谈iOS进阶路线前言这里筑梦师,是一名正在努力学习的iOS开发工程师,目前致力于全栈方向的学习,希望可以和大家一起交流技术,共同进步,用简书记录下自己的学习历程.  个人学习方法分享iOS开发学习路线  1234567本文阅读建议1.一定要辩证的看待本文.2.本文仅代表个人片面观点,如有不同观点,还往及时指出.3.本文只阐述学习路线和学习当中的重点问题.需要读者自己使用百度进行拓展学习.4.本文">
+<meta name="keywords" content="iOS开发,iOS进阶,学习路线">
+<meta property="og:type" content="article">
+<meta property="og:title" content="浅谈iOS进阶路线">
+<meta property="og:url" content="http://yoursite.com/2018/04/24/iOS_Developer_LevelUp/index.html">
+<meta property="og:site_name" content="Please Stay With Me">
+<meta property="og:description" content="浅谈iOS进阶路线前言这里筑梦师,是一名正在努力学习的iOS开发工程师,目前致力于全栈方向的学习,希望可以和大家一起交流技术,共同进步,用简书记录下自己的学习历程.  个人学习方法分享iOS开发学习路线  1234567本文阅读建议1.一定要辩证的看待本文.2.本文仅代表个人片面观点,如有不同观点,还往及时指出.3.本文只阐述学习路线和学习当中的重点问题.需要读者自己使用百度进行拓展学习.4.本文">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2018-05-01T13:59:48.087Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="浅谈iOS进阶路线">
+<meta name="twitter:description" content="浅谈iOS进阶路线前言这里筑梦师,是一名正在努力学习的iOS开发工程师,目前致力于全栈方向的学习,希望可以和大家一起交流技术,共同进步,用简书记录下自己的学习历程.  个人学习方法分享iOS开发学习路线  1234567本文阅读建议1.一定要辩证的看待本文.2.本文仅代表个人片面观点,如有不同观点,还往及时指出.3.本文只阐述学习路线和学习当中的重点问题.需要读者自己使用百度进行拓展学习.4.本文">
+
+
+
+  <link rel="alternate" href="/blog/atom.xml" title="Please Stay With Me" type="application/atom+xml" />
+
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2018/04/24/iOS_Developer_LevelUp/"/>
+
+
+
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>浅谈iOS进阶路线 | Please Stay With Me</title>
+  
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"> 
+
+<div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/blog/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Please Stay With Me</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">Coding Together</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+          
+  <li class="menu-item menu-item-home">
+    <a href="/blog/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+</li>
+
+      
+        
+        
+          
+  <li class="menu-item menu-item-archives">
+    <a href="/blog/archives/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档<span class="badge">13</span>
+      </a>
+</li>
+
+      
+        
+        
+          
+  <li class="menu-item menu-item-categories">
+    <a href="/blog/categories/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-th"></i> <br />分类<span class="badge">6</span>
+      </a>
+</li>
+
+      
+        
+        
+          
+  <li class="menu-item menu-item-tags">
+    <a href="/blog/tags/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签<span class="badge">11</span>
+      </a>
+</li>
+
+      
+        
+        
+          
+  <li class="menu-item menu-item-about">
+    <a href="/blog/about/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-user"></i> <br />关于</a>
+</li>
+
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />搜索</a>
+        </li>
+      
+    </ul>
+  
+
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+  
+
+
+
+ </div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/blog/2018/04/24/iOS_Developer_LevelUp/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="筑梦师Winston">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/blog/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Please Stay With Me">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">浅谈iOS进阶路线</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-24T12:00:21+08:00">2018-04-24</time>
+            
+
+            
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/blog/categories/iOS开发/" itemprop="url" rel="index"><span itemprop="name">iOS开发</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="浅谈iOS进阶路线"><a href="#浅谈iOS进阶路线" class="headerlink" title="浅谈iOS进阶路线"></a>浅谈iOS进阶路线</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>这里筑梦师,是一名正在努力学习的iOS开发工程师,目前致力于全栈方向的学习,希望可以和大家一起交流技术,共同进步,用简书记录下自己的学习历程.</p>
+<blockquote>
+<p><a href="https://www.jianshu.com/p/19265c17f99b" target="_blank" rel="noopener">个人学习方法分享</a><br><a href="https://www.jianshu.com/p/e41e116837b5" target="_blank" rel="noopener">iOS开发学习路线</a></p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">本文阅读建议</span><br><span class="line">1.一定要辩证的看待本文.</span><br><span class="line">2.本文仅代表个人片面观点,如有不同观点,还往及时指出.</span><br><span class="line">3.本文只阐述学习路线和学习当中的重点问题.需要读者自己使用百度进行拓展学习.</span><br><span class="line">4.本文所表达观点并不是最终观点,还会更新,因为本人还在学习过程中,有什么遗漏或错误还望各位指出.</span><br><span class="line">5.觉得哪里不妥请在评论留下建议~</span><br><span class="line">6.觉得还行的话就点个小心心鼓励下我吧~</span><br></pre></td></tr></table></figure>
+<hr>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">目录</span><br><span class="line">1.苹果官方文档 &amp; 新API</span><br><span class="line">2.iOS第三方库源码 &amp; 实现原理</span><br><span class="line">3.iOS标配技能</span><br><span class="line">4.iOS多线程</span><br><span class="line">5.iOS架构 &amp; 代码规范</span><br><span class="line">6.iOS工程化管理</span><br><span class="line">7.苹果官方Kit</span><br><span class="line">8.Runtime &amp; Runloop</span><br><span class="line">9.iOS FFmpeg &amp; Opencv原理</span><br><span class="line">10.iOS底层原理</span><br><span class="line">11.iOS App逆向</span><br><span class="line">12.iOS Swift</span><br><span class="line">13.本文没有提到的知识点</span><br><span class="line">14.明确自己的定位和路线</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="推荐书籍-amp-网站推荐"><a href="#推荐书籍-amp-网站推荐" class="headerlink" title="推荐书籍 &amp; 网站推荐"></a>推荐书籍 &amp; 网站推荐</h2><blockquote>
+<p><a href="https://developer.apple.com/search/" target="_blank" rel="noopener">苹果官网API搜索</a></p>
+<p>Head First iPhone／iPad开发<br>iOS应用安全权威指南<br>高性能iOS应用开发<br>高级核心动画技巧<br>2017蚂蚁金服AR框架<br>京东应用架构设计<br>王巍-Swift4.0<br>SwifterTips (第四版)<br>OS X与IOS内核编程<br>OpenGL着色语言<br>avfoundation秘籍<br>CFNetwork-编程指南<br>通过实现TableView来理解IOS编程<br>七牛云直播技术分享</p>
+</blockquote>
+<hr>
+<h2 id="阅读前须知"><a href="#阅读前须知" class="headerlink" title="阅读前须知"></a>阅读前须知</h2><p>之前那篇iOS开发路线是去年9月份做好的,删除了底层部分和逆向部分,因为本人尚在学习之中,不方便对未知领域做片面总结,包括本文,其目的是为了向大家分享,如果是我在进行iOS进阶过程中会去学习的知识点.</p>
+<p>多的不说,只说两点:<br>1.确实觉得自己水平实力低于平均水平,明显想提升自己实力的.<br>2.如果有”这些技能工作当中用不到,学来干嘛?”这种想法,请叉叉掉,我不欢迎,谢谢.</p>
+<p>既然大家都是想提升实力,就不要老去思考工作当中用不用的到,每个人职能就那么点,为什么会分水平高低,还不是因为人家懂得多?心里没数?别心浮气躁的,踏踏实实的提高硬实力.</p>
+<h2 id="iOS基础"><a href="#iOS基础" class="headerlink" title="iOS基础"></a>iOS基础</h2><p>本文主要是为了补充iOS开发学习路线那篇文章,所以到达这一步,就暂定你已经会基本的操作,以及独立开发过项目了.</p>
+<h2 id="苹果官方文档-amp-新API"><a href="#苹果官方文档-amp-新API" class="headerlink" title="苹果官方文档 &amp; 新API"></a>苹果官方文档 &amp; 新API</h2><p>苹果开发者官网有对每个API的解释,使用,介绍.</p>
+<p>使用百度”iOS开发”+ 空格 +”各个知识点” 来搜索学习各种自己不擅长的知识.例如:iOS开发 Runtime原理.</p>
+<h2 id="iOS第三方库源码-amp-实现原理"><a href="#iOS第三方库源码-amp-实现原理" class="headerlink" title="iOS第三方库源码 &amp; 实现原理"></a>iOS第三方库源码 &amp; 实现原理</h2><p>我们平常经常使用第三方库,例如:AFNetworking,MJRefresh,YYKit,SDWebimage,SDAutoLayout,Masonry.</p>
+<p>那么你是否去查看其第三方库是如何封装的?</p>
+<p>AFNetworking是如何实现异步访问网络请求,如何处理你传给他的数据字典,在AFN内部进行了几层封装?</p>
+<p>MJRefresh的实现原理是什么?<br>SDWebImage的缓存原理?<br>YYKit针对于FPS是如何优化的?<br>SDAutoLayout和Masonry的布局库原理有着怎么样的区别,其原理是依据什么进行布局的?谁的效率更高一点.<br>还有很多的第三方库值得我们去学习.</p>
+<h2 id="iOS标配技能"><a href="#iOS标配技能" class="headerlink" title="iOS标配技能"></a>iOS标配技能</h2><h3 id="交流"><a href="#交流" class="headerlink" title="交流"></a>交流</h3><p>首先,在公司日常的交流,要稳重不失礼节,出问题的时候,要针对问题提出解决方案,而不要带情绪.</p>
+<p>当有新的业务需求提出时,根据自己的实力,给出不同的业务方案.</p>
+<h3 id="购物车"><a href="#购物车" class="headerlink" title="购物车"></a>购物车</h3><p>购物车可以说是在各个客户端,最经典的案例了,这是一个业务需求,也是涉及到增删改查,异步处理等各种业务逻辑混杂于一身的业务需求.</p>
+<p>一个健壮的购物车,可以说是必备的业务技能.和登录注册同理.</p>
+<h3 id="支付"><a href="#支付" class="headerlink" title="支付"></a>支付</h3><p>有了购物车,就一定会有支付,熟悉支付宝,微信,银联,苹果支付IAP等各种支付平台的接入,接入流程.</p>
+<p>你可以没做过,但你不能不知道,就比如支付宝当中的加密算法RSA是属于什么加密.他是如何验证的.公钥和私钥是如何在APP和服务端存储验证的?</p>
+<h3 id="蓝牙"><a href="#蓝牙" class="headerlink" title="蓝牙"></a>蓝牙</h3><p>蓝牙这个就不细说了,很简单,自己写个DEMO,不要觉得自己没做过就很难,写一个连接Demo,没那么难.</p>
+<p>实际蓝牙项目中,你可以根据业务需求,选择较为健壮,易接入的蓝牙设备.最好可以提供接入手册的那种,接入其实很简单,调试费劲罢了.</p>
+<h3 id="摄像头"><a href="#摄像头" class="headerlink" title="摄像头"></a>摄像头</h3><p>同理蓝牙,摄像头需要选择提供成型SDK的厂家,除非你公司实力非常强大,肯购买提供底层库让你自己做SDK的摄像头.愿意投入时间成本去开发SDK.</p>
+<h3 id="3DTouch"><a href="#3DTouch" class="headerlink" title="3DTouch"></a>3DTouch</h3><p>写一个Demo练习一下,很简单,必备技能,但一般不是每个应用都做.</p>
+<h3 id="直播"><a href="#直播" class="headerlink" title="直播"></a>直播</h3><p>直播现在中小型公司普遍采用第三方直播平台,不管你是否做过,你可以先去 腾讯云,七牛云,阿里云 开发平台进行学习,技术文档是开放的.</p>
+<p>你哪怕知识看一遍,也比不看的要强的多.可以接入Demo测试学习一下.</p>
+<p>当然,有些公司不想接入第三方,也有开源的框架可以自己做直播平台,这就需要三端连调,一同处理需求了.</p>
+<h3 id="RTMP推流"><a href="#RTMP推流" class="headerlink" title="RTMP推流"></a>RTMP推流</h3><p>例如IJKPlayer FFmpeg,包括直播原理,你要懂.</p>
+<p>直播的视频是遵循什么协议一个个将视频包分发到客户端,RTMP协议的优缺点等.</p>
+<h3 id="视频处理"><a href="#视频处理" class="headerlink" title="视频处理"></a>视频处理</h3><p>视频处理,例如转码啊,旋转,编码.</p>
+<p>不同格式的处理,视频大小的处理,为什么QQ和微信的小视频可以做到超级压缩?</p>
+<p>如何对视频进行滤镜处理,类似抖音那样.</p>
+<h3 id="图片渲染-amp-滤镜"><a href="#图片渲染-amp-滤镜" class="headerlink" title="图片渲染&amp;滤镜"></a>图片渲染&amp;滤镜</h3><p>GPUIImage是一个集滤镜,图像处理的框架,可以学习一下,如何添加滤镜,处理图片.</p>
+<h3 id="Socket-amp-XMPP"><a href="#Socket-amp-XMPP" class="headerlink" title="Socket &amp; XMPP"></a>Socket &amp; XMPP</h3><p>即时聊天,也是当下流行的技术,每个APP几乎都少不了要有一个聊天功能,即使没有,也会涉及到客服,反馈等功能.</p>
+<p>那么即时聊天遵循什么协议,用什么来做的呢?可以了解一下iOS当中如何用Socket 实现简易聊天,或者使用XMPP协议实现聊天?</p>
+<h3 id="RN开发-amp-JavaScript"><a href="#RN开发-amp-JavaScript" class="headerlink" title="RN开发 &amp; JavaScript"></a>RN开发 &amp; JavaScript</h3><p>React Native开发,由Facebook开源,React Native使你能够在Javascript和React的基础上获得完全一致的开发体验，构建世界一流的原生APP。</p>
+<p>这是一门新技术,本人没接触过,所以不赘述,大家自己了解一下,一些公司会用这个开发App.</p>
+<h3 id="Git-amp-SVN-项目版本控制"><a href="#Git-amp-SVN-项目版本控制" class="headerlink" title="Git &amp; SVN 项目版本控制"></a>Git &amp; SVN 项目版本控制</h3><p>公司当中一般都有后端开发工程师 或者DBA创建一个属于本公司局域网的Git本地管理仓库.</p>
+<p>如果你是单人开发iOS,那就需要掌握最基本的版本控制,</p>
+<p>如果你在公司是团队开发,还要掌握冲突处理的技能</p>
+<h3 id="优雅的开发"><a href="#优雅的开发" class="headerlink" title="优雅的开发"></a>优雅的开发</h3><p>[如何优雅的使用Mac进行开发]稍后更新</p>
+<h2 id="iOS多线程"><a href="#iOS多线程" class="headerlink" title="iOS多线程"></a>iOS多线程</h2><p>GCD、NSOperation、NSThread各种灵活运用和嵌套</p>
+<h2 id="iOS架构-amp-代码规范"><a href="#iOS架构-amp-代码规范" class="headerlink" title="iOS架构 &amp; 代码规范"></a>iOS架构 &amp; 代码规范</h2><p><a href="https://casatwy.com/iosying-yong-jia-gou-tan-kai-pian.html" target="_blank" rel="noopener">iOS应用架构谈-By.Casa大</a><br>可以仔细学习这篇文章,养成良好的代码规范.</p>
+<h2 id="苹果官方Kit"><a href="#苹果官方Kit" class="headerlink" title="苹果官方Kit"></a>苹果官方Kit</h2><ul>
+<li>ARKit.</li>
+<li>SiriKit</li>
+<li>HealthKit</li>
+<li>HomeKit</li>
+<li>SearchKit</li>
+<li>IOKit</li>
+<li>PDFKit</li>
+<li>CloudKit</li>
+<li>GameplayKit</li>
+<li>SpriteKit</li>
+<li>SceneKit</li>
+<li>MusicKit</li>
+<li>ResearchKit</li>
+<li>MapKit</li>
+<li>StoreKit</li>
+<li>AVKit</li>
+</ul>
+<p>可以尝试了解一下上面的各种kit官方API,因为有可能新的业务需求就是官方API调用的事就解决了.</p>
+<h2 id="Runtime-amp-Runloop"><a href="#Runtime-amp-Runloop" class="headerlink" title="Runtime &amp; Runloop"></a>Runtime &amp; Runloop</h2><p>Runtime和Runloop的原理和机制,以及如何使用,大家可以深入了解一下,因为个人水平原因,目前只有整理好的笔记,暂时不方便对此进行总结.</p>
+<h2 id="iOS-FFmpeg-amp-Opencv原理"><a href="#iOS-FFmpeg-amp-Opencv原理" class="headerlink" title="iOS FFmpeg &amp; Opencv原理"></a>iOS FFmpeg &amp; Opencv原理</h2><p>FFmpeg和Opencv底层原理是什么,是什么支撑了这个强大的视频处理库.</p>
+<h2 id="iOS底层原理"><a href="#iOS底层原理" class="headerlink" title="iOS底层原理"></a>iOS底层原理</h2><p>结合Runtime机制深入了解Objective-C对象的本质和消息机制,其方法和对象在编译和运行过程中分别是什么状态.</p>
+<h2 id="iOS-App逆向"><a href="#iOS-App逆向" class="headerlink" title="iOS App逆向"></a>iOS App逆向</h2><p>App逆向目前本人也没有深入理解,不知道在工作当中如何应用,确实让我了解到iOS开发项目中之外的东西.</p>
+<p>例如,客户端和服务器概念,SSH登录,以及各大有名的APP是如何架构的(推理一下).</p>
+<h2 id="iOS-Swift"><a href="#iOS-Swift" class="headerlink" title="iOS Swift"></a>iOS Swift</h2><p>Swift目前已经4.0了,个人感觉本人会在Swift5.0进行学习吧,虽然很多项目没有用到Swift,但Swift确实是一个趋势,可以了解一下.</p>
+<h2 id="本文没有提到的知识点"><a href="#本文没有提到的知识点" class="headerlink" title="本文没有提到的知识点"></a>本文没有提到的知识点</h2><ul>
+<li>崩溃日志分析</li>
+<li>移动端加解密</li>
+<li>数据结构 &amp; 算法导论</li>
+<li>混合开发</li>
+<li>机器学习</li>
+<li>ARKit</li>
+<li>RAC</li>
+<li>iOS 工程化 </li>
+<li>模块化开发</li>
+<li>组件化开发</li>
+<li>单元测试</li>
+<li>技术经理</li>
+<li>产品经理</li>
+<li>架构师</li>
+<li>阿里技术前沿</li>
+<li>跟随巨人的脚步</li>
+</ul>
+<h2 id="iOS进阶概念-By-SindriLin"><a href="#iOS进阶概念-By-SindriLin" class="headerlink" title="iOS进阶概念 By.SindriLin"></a>iOS进阶概念 By.SindriLin</h2><p>本人尚在学习阶段,但我一直想传达一个积极向上的想法,以及个人的学习思路.因为水平欠缺,在发表文章之余,我结识了SindriLin前辈,与前辈交流了本人的想法.</p>
+<p><a href="http://sindrilin.com" target="_blank" rel="noopener">SindriLin博客</a><br><a href="https://www.jianshu.com/u/0cf7d455eb9e" target="_blank" rel="noopener">SindriLin简书</a></p>
+<p>前辈告诉我,进阶不能仅仅局限于iOS开发,而是要从工程的角度来看待<strong>开发工程师进阶</strong>这个说法.</p>
+<h3 id="代码设计能力"><a href="#代码设计能力" class="headerlink" title="代码设计能力"></a>代码设计能力</h3><p>代码设计能力主要体现在如何设计代码，设计模式的核心在于六大原则，而不是具体的某些设计模式。</p>
+<h3 id="工具设计能力"><a href="#工具设计能力" class="headerlink" title="工具设计能力"></a>工具设计能力</h3><p>工具设计能力在于使用工具的过程中，了解工具的实现，尝试去设计更适合工程的工具，这部分需要大量的代码积累。另一方面由于工具是可复用的，对代码设计能力的要求是有的，所以属于更高.</p>
+<h3 id="工程规划能力"><a href="#工程规划能力" class="headerlink" title="工程规划能力"></a>工程规划能力</h3><ul>
+<li>抗风险</li>
+<li>成本</li>
+<li>回报</li>
+</ul>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>确实,作为一个开发工程师,应该去纵观整个工程,而不是仅仅局限于自己的工作栈,否则不可能获得质的提升.</p>
+<p>总之,希望大家制定自己的路线进行努力,只要不原地踏步.</p>
+<h2 id="明确自己的定位和路线"><a href="#明确自己的定位和路线" class="headerlink" title="明确自己的定位和路线"></a>明确自己的定位和路线</h2><p>和阿振有一天聊起了开发水平如何分辨,初中高级开发工程师的区别大致就是:使用第三方库,改第三方库,创造第三方库.</p>
+<p>推荐看一下阿里分享的技术图册,你就会发现,阿里研究的技术正在世界的前沿,学无止境.</p>
+<p>努力吧,美好的生活在向你招手~</p>
+<h2 id="结束语"><a href="#结束语" class="headerlink" title="结束语"></a>结束语</h2><p>如果您对这篇文章有什么意见或者建议,请评论与我讨论.<br>如果您觉得还不错的话~可以点个喜欢鼓励我哦.<br>如果您想和我一起学习,请毫不吝啬的私信我吧~<br>介个是我的<a href="https://dreamerwinston.github.io/blog/" target="_blank" rel="noopener">个人博客</a>,欢迎参观哦~</p>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/blog/tags/iOS开发/" rel="tag"># iOS开发</a>
+          
+            <a href="/blog/tags/iOS进阶/" rel="tag"># iOS进阶</a>
+          
+            <a href="/blog/tags/学习路线/" rel="tag"># 学习路线</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/blog/2018/04/19/iOS_Developer_street/" rel="next" title="iOS开发学习路线">
+                <i class="fa fa-chevron-left"></i> iOS开发学习路线
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/blog/2018/04/26/iOS_Developer_Skill/" rel="prev" title="浅谈iOS架构师的技能栈">
+                浅谈iOS架构师的技能栈 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/blog/images/avatar.png"
+                alt="筑梦师Winston" />
+            
+              <p class="site-author-name" itemprop="name">筑梦师Winston</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/blog/archives/">
+                
+                    <span class="site-state-item-count">13</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  <a href="/blog/categories/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">6</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/blog/tags/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">11</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/blog/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  <a href="https://github.com/DreamerWinston" target="_blank" title="GitHub"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://twitter.com/yourname" target="_blank" title="Twitter"><i class="fa fa-fw fa-twitter"></i>Twitter</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://stackoverflow.com/users/6076987/dreamer-winston" target="_blank" title="StackOverflow"><i class="fa fa-fw fa-stack-overflow"></i>StackOverflow</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="mailto:wwf326813059@gmail.com" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://blog.csdn.net/wwf326813059" target="_blank" title="CSDN"><i class="fa fa-fw fa-globe"></i>CSDN</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://weibo.com/LoveSwater/" target="_blank" title="微博"><i class="fa fa-fw fa-globe"></i>微博</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://www.jianshu.com/u/c6b20dcdeb81" target="_blank" title="简书"><i class="fa fa-fw fa-globe"></i>简书</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://www.zhihu.com/people/wang-wei-feng-30/activities" target="_blank" title="知乎"><i class="fa fa-fw fa-globe"></i>知乎</a>
+                  
+                </span>
+              
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#浅谈iOS进阶路线"><span class="nav-number">1.</span> <span class="nav-text">浅谈iOS进阶路线</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#推荐书籍-amp-网站推荐"><span class="nav-number">1.2.</span> <span class="nav-text">推荐书籍 &amp; 网站推荐</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#阅读前须知"><span class="nav-number">1.3.</span> <span class="nav-text">阅读前须知</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#iOS基础"><span class="nav-number">1.4.</span> <span class="nav-text">iOS基础</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#苹果官方文档-amp-新API"><span class="nav-number">1.5.</span> <span class="nav-text">苹果官方文档 &amp; 新API</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#iOS第三方库源码-amp-实现原理"><span class="nav-number">1.6.</span> <span class="nav-text">iOS第三方库源码 &amp; 实现原理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#iOS标配技能"><span class="nav-number">1.7.</span> <span class="nav-text">iOS标配技能</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#交流"><span class="nav-number">1.7.1.</span> <span class="nav-text">交流</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#购物车"><span class="nav-number">1.7.2.</span> <span class="nav-text">购物车</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#支付"><span class="nav-number">1.7.3.</span> <span class="nav-text">支付</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#蓝牙"><span class="nav-number">1.7.4.</span> <span class="nav-text">蓝牙</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#摄像头"><span class="nav-number">1.7.5.</span> <span class="nav-text">摄像头</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3DTouch"><span class="nav-number">1.7.6.</span> <span class="nav-text">3DTouch</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#直播"><span class="nav-number">1.7.7.</span> <span class="nav-text">直播</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#RTMP推流"><span class="nav-number">1.7.8.</span> <span class="nav-text">RTMP推流</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#视频处理"><span class="nav-number">1.7.9.</span> <span class="nav-text">视频处理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#图片渲染-amp-滤镜"><span class="nav-number">1.7.10.</span> <span class="nav-text">图片渲染&amp;滤镜</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Socket-amp-XMPP"><span class="nav-number">1.7.11.</span> <span class="nav-text">Socket &amp; XMPP</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#RN开发-amp-JavaScript"><span class="nav-number">1.7.12.</span> <span class="nav-text">RN开发 &amp; JavaScript</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Git-amp-SVN-项目版本控制"><span class="nav-number">1.7.13.</span> <span class="nav-text">Git &amp; SVN 项目版本控制</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#优雅的开发"><span class="nav-number">1.7.14.</span> <span class="nav-text">优雅的开发</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#iOS多线程"><span class="nav-number">1.8.</span> <span class="nav-text">iOS多线程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#iOS架构-amp-代码规范"><span class="nav-number">1.9.</span> <span class="nav-text">iOS架构 &amp; 代码规范</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#苹果官方Kit"><span class="nav-number">1.10.</span> <span class="nav-text">苹果官方Kit</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Runtime-amp-Runloop"><span class="nav-number">1.11.</span> <span class="nav-text">Runtime &amp; Runloop</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#iOS-FFmpeg-amp-Opencv原理"><span class="nav-number">1.12.</span> <span class="nav-text">iOS FFmpeg &amp; Opencv原理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#iOS底层原理"><span class="nav-number">1.13.</span> <span class="nav-text">iOS底层原理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#iOS-App逆向"><span class="nav-number">1.14.</span> <span class="nav-text">iOS App逆向</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#iOS-Swift"><span class="nav-number">1.15.</span> <span class="nav-text">iOS Swift</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#本文没有提到的知识点"><span class="nav-number">1.16.</span> <span class="nav-text">本文没有提到的知识点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#iOS进阶概念-By-SindriLin"><span class="nav-number">1.17.</span> <span class="nav-text">iOS进阶概念 By.SindriLin</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#代码设计能力"><span class="nav-number">1.17.1.</span> <span class="nav-text">代码设计能力</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#工具设计能力"><span class="nav-number">1.17.2.</span> <span class="nav-text">工具设计能力</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#工程规划能力"><span class="nav-number">1.17.3.</span> <span class="nav-text">工程规划能力</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#总结"><span class="nav-number">1.17.4.</span> <span class="nav-text">总结</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#明确自己的定位和路线"><span class="nav-number">1.18.</span> <span class="nav-text">明确自己的定位和路线</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#结束语"><span class="nav-number">1.19.</span> <span class="nav-text">结束语</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love" id="animate"> 
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">筑梦师Winston</span>
+
+  
+
+  
+</div>
+
+
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/theme-next/hexo-theme-next">NexT.Pisces</a> v6.1.0</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/blog/js/src/utils.js?v=6.1.0"></script>
+
+  <script type="text/javascript" src="/blog/js/src/motion.js?v=6.1.0"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/blog/js/src/affix.js?v=6.1.0"></script>
+
+  <script type="text/javascript" src="/blog/js/src/schemes/pisces.js?v=6.1.0"></script>
+
+
+
+  
+  <script type="text/javascript" src="/blog/js/src/scrollspy.js?v=6.1.0"></script>
+<script type="text/javascript" src="/blog/js/src/post-details.js?v=6.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/blog/js/src/bootstrap.js?v=6.1.0"></script>
+
+
+
+  
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/blog/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+</body>
+</html>
