@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-04-13T03:54:13.637Z</updated>
+  <updated>2018-05-01T13:17:54.154Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2018/04/12/Computer_books_share_List/"/>
     <id>http://yoursite.com/2018/04/12/Computer_books_share_List/</id>
     <published>2018-04-12T13:38:59.636Z</published>
-    <updated>2018-04-13T03:54:13.637Z</updated>
+    <updated>2018-05-01T13:17:54.154Z</updated>
     
     <summary type="html">
     
@@ -29,9 +29,7 @@
       
         
         
-          &lt;p&gt;##前言&lt;br&gt;这里筑梦师,是一名正在努力学习的iOS开发工程师,目前致力于全栈方向的学习,希望可以和大家一起交流技术,共同进步,用简书记录下自己的学习历程.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a
+          &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
         
       
     
